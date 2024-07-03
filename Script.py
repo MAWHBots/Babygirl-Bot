@@ -244,10 +244,10 @@ Yᴏᴜʀ <ul>ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴ</ul> ᴡɪʟʟ ʙᴇ ᴀᴄᴛɪᴠ
 
     MOVIES_UPDATE_TXT = """<b>#New_File_Added
 
-📝Tɪᴛʟᴇ: {title}
-🎖Rᴀᴛɪɴɢs: {rating}
-🎭Gᴇɴʀᴇs: {genres}
-
+📝Tɪᴛʟᴇ: {title}/n
+🎖Rᴀᴛɪɴɢs: {rating}/n
+🎭Gᴇɴʀᴇs: {genres}/n
 
 🌿Dᴇsᴄʀɪᴘᴛɪᴏɴ: {description}
+❗Cʟɪᴄᴋ Hᴇʀᴇ Tᴏ Gᴇᴛ Mᴏᴠɪᴇ/Sᴇʀɪᴇs👇
 </b>"""
