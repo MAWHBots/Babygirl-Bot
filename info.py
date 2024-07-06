@@ -93,4 +93,8 @@ SETTINGS = {
             'shortner_three': SHORTENER_WEBSITE3,
             'api_three': SHORTENER_API3,
             'third_verify_time': THREE_VERIFY_GAP
+    }
+DEFAULT_POST_MODE = {
+    'singel_post_mode' : False,
+    'all_files_post_mode' : False
 }
