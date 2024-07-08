@@ -13,7 +13,7 @@ def is_enabled(value, default):
         return default
 
 #main variables
-API_ID = int(environ.get('API_ID', '23323912'))
+API_ID = int(environ.get('API_ID', ''))
 API_HASH = environ.get('API_HASH', '5b7decd292e78a57d631ea1849b7098a')
 BOT_TOKEN = environ.get('BOT_TOKEN', '')
 
@@ -53,10 +53,10 @@ YEARS = [f'{i}' for i in range(2024 , 2002,-1 )]
 SEASONS = [f'season {i}'for i in range (1 , 23)]
 REF_PREMIUM = 10
 PREMIUM_POINT = 1000
-auth_channel = environ.get('AUTH_CHANNEL', '')
+auth_channel = environ.get('AUTH_CHANNEL', '-1001522888236')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
-SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', ''))
-request_channel = environ.get('REQUEST_CHANNEL', '')
+SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002230094777'))
+request_channel = environ.get('REQUEST_CHANNEL', '-1002244588420')
 REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(request_channel) else None
 UPI_PAY_LOGS = int(environ.get('UPI_PAY_LOGS', ''))
 MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002025104764'))
