@@ -40,7 +40,7 @@ sᴇɴᴅ ᴍᴇ ᴀɴʏ ᴍᴏᴠɪᴇ ᴏʀ sᴇʀɪᴇs ɴᴀᴍᴇ ᴀɴᴅ 
 ⚙️ ᴄʜɪʟʟɪɴɢ ᴏɴ : <a href="https://www.heroku.com/">ʜᴇʀᴏᴋᴜ</a>
 🍿 ʙʀᴀɪɴ ғᴜᴇʟᴇᴅ : <a href="https://www.mongodb.com/">ᴍᴏɴɢᴏ ᴅʙ</a>
 🐍 ᴄᴏᴅɪɴɢ ᴍᴜsᴄʟᴇs : <a href="https://www.python.org/">ᴘʏᴛʜᴏɴ 3</a>
-😚 Mʏ Uᴘᴅᴀᴛᴇs: <a href="https://t.me/MisterBrutal">Mʏ Uᴘᴅᴀᴛᴇs</a>
+😚 Mʏ Uᴘᴅᴀᴛᴇs: <a href="https://t.me/moviesandwebserieshubOrzz">Mʏ Uᴘᴅᴀᴛᴇs</a>
 🌿 ᴍʏ ᴍᴀɴᴀɢᴇʀ : <a href="https://telegram.me/Usernamesnothing">⊙𝑴𝒊𝒍𝒍𝒆𝒓☉</a>
 """
     SUPPORT_GRP_MOVIE_TEXT = '''<b>ʜᴇʏ {}
