@@ -13,7 +13,7 @@ def is_enabled(value, default):
         return default
 
 #main variables
-API_ID = int(environ.get('API_ID', ''))
+API_ID = int(environ.get('API_ID', '23323912'))
 API_HASH = environ.get('API_HASH', '5b7decd292e78a57d631ea1849b7098a')
 BOT_TOKEN = environ.get('BOT_TOKEN', '')
 
@@ -21,21 +21,21 @@ ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ
 USERNAME = environ.get('USERNAME', "https://telegram.me/OrzzQueryBot")
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002202300892'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+MsHpvs2TFlpjZTY1')
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002123909008').split()]
 DATABASE_URI = environ.get('DATABASE_URI', "")
 
 DATABASE_NAME = environ.get('DATABASE_NAME', "TELEGRAM_BOT_INFO")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
-LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', ''))
+LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002216649502'))
 QR_CODE = environ.get('QR_CODE', 'https://telegra.ph/file/52e5b3f0103d997ffbedb.jpg')
 START_IMG = environ.get('START_IMG', 'https://telegra.ph/file/47f1bd32b9ad6628789d1.jpg')
 BIN_CHANNEL = int(environ.get('BIN_CHANNEL','-1002026291321'))
-DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS',''))
+DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','-1002212409575'))
 URL = environ.get('URL', 'adambot-b1919552bb8e.herokuapp.com/')
 STICKERS_IDS = ('CAACAgQAAxkBAAEK99dlfC7LDqnuwtGRkIoacot_dGC4zQACbg8AAuHqsVDaMQeY6CcRojME').split()
 FILE_AUTO_DEL_TIMER = int(environ.get('FILE_AUTO_DEL_TIMER', '600'))
 IS_VERIFY = is_enabled('IS_VERIFY', True)
-LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', ''))
+LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002086571200'))
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/+QRRM6Kff2Mk1YjJl")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
 SHORTENER_API = environ.get("SHORTENER_API", "49ff923da91ec127edca47fe22d4d2d8d7514669")
@@ -44,7 +44,7 @@ SHORTENER_API2 = environ.get("SHORTENER_API2", "fd3d5cd0cd81adcdd2b9569b9a9b943e
 SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'zipshort.net')
 SHORTENER_API3 = environ.get("SHORTENER_API3", "f0b6d5d3cb3fc573f554426f5f7c94062b082a66")
 SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'tulinls.in')
-TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "900"))
+TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "9000"))
 THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "9000"))
 
 LANGUAGES = ["hindi", "english", "telugu", "tamil", "kannada", "malayalam", "bengali", "marathi", "gujarati", "punjabi"]
